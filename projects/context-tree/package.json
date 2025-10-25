@@ -1,0 +1,31 @@
+{
+  "name": "@hasan-akbari/context-tree",
+  "version": "1.0.7",
+  "description": "Standalone reactive context tree service for Angular",
+  "author": "Hasan Akbari",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/context-tree.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/context-tree.mjs",
+      "esm": "./esm2022/context-tree.mjs",
+      "default": "./fesm2022/context-tree.mjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
